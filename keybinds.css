@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { font-family: 'Roboto', sans-serif; }
+a { text-decoration: none !important; color: white; }
+
+body {
+	background-color: #14141f !important;
+	padding-bottom: 80px;
+	color: white;
+}
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#logo > img {
+	width: 7%; height: 15%;
+}
+
+#navbar {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#nav-btn {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+li {
+	display: flex; align-items: center;
+	font-size: 12px;
+}
+
+#nav-btn:hover { 
+	color: #4fb6f1;
+}
+
+#changelogs {
+	display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;
+}
+
+#changelog-chunk {
+	border: 2px solid #009ffb;
+	padding: 1px;
+	width: 50%;
+	border-radius: 2px;
+
+	list-style-type: square;
+
+	margin-bottom: 70px;
+}
+
+#chunk-header {
+	background-color: #009ffb91;
+	height: 40px;
+	display: flex; justify-content: flex-start; align-items: center;
+	padding-left: 20px;
+}
+
+#key-table {
+	width: 100%;
+	display: flex; justify-content: center; align-items: center; flex-direction: column;
+}
+
+th {
+	color:#D5DDE5;;
+	background:#223e77;
+	border-bottom: 4px solid #0088ff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+  
+th:first-child {
+	border-top-left-radius:3px;
+}
+   
+th:last-child {
+	border-top-right-radius:3px;
+	border-right:noness;
+}
+	
+tr {
+	border-top: 1px solid #C1C3D1;
+	border-bottom: 1px solid #C1C3D1;
+	color:#666B85;
+	font-size:16px;
+	font-weight:normal;
+	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+   
+tr:hover td {
+	background:#1d60dd54;
+	color:#FFFFFF;
+	border-top: 1px solid #22262e;
+}
+   
+tr:nth-child(odd) td {
+	background:rgb(39, 46, 73);
+}
+   
+tr:nth-child(odd):hover td {
+	background:#2e71ec54;
+	color:#FFFFFF;
+}
+  
+tr:last-child td:first-child {
+	border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+	border-bottom-right-radius:3px;
+}
+   
+td {
+	background:rgb(26, 30, 48);
+	padding: 12px;
+	font-size: 15px;
+}
+  
+td:last-child {
+	border-right: 0px;
+}
