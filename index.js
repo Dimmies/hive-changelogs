@@ -84,8 +84,11 @@ window.onload = (event) => {
 		// Create list of the logs
 		let theList = ""
 		for (list in LogsList) {
-			console.log(LogsList[list], list)
-			theList = theList + '<li><i class="fas ' + LogTypes[LogsList[list].type] + ' fa-sm fa-fw" style="color: white;"></i> ' + LogsList[list].desc + ' </li>'
+			if ( LogsList[list].link ) {
+				theList = theList + '<li><i class="fas ' + LogTypes[LogsList[list].type] + ' fa-sm fa-fw" style="color: white;"></i> ' + LogsList[list].desc + ' <a href="' + LogsList[list].link + '" target="_blank"><i id="change-link" class="fa fa-question-circle"></i></a> </li>'
+			} else {
+				theList = theList + '<li><i class="fas ' + LogTypes[LogsList[list].type] + ' fa-sm fa-fw" style="color: white;"></i> ' + LogsList[list].desc + ' </li>'
+			}
 		}
 
 		let changeCount = Object.keys(LogsList).length
