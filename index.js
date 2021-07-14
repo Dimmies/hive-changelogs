@@ -74,6 +74,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			66: { type: "add", desc: "Added lock to Chow hall at prison" },
 			67: { type: "add", desc: "Added a few missing maps" },
 			68: { type: "change", desc: "Changed the style of the Chat" },
+			69: { type: "change", desc: "Changed Arcade to use every arcade cabinet instead of just the ones in the arcade interior" },
 		}
 	},
 
