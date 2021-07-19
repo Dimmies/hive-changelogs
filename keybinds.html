@@ -17,9 +17,7 @@
 
 	<body>
 
-		<div id="logo"><img src="./imgs/NVRP_Logo_2_NoBG.png"></div>
-
-		<!-- <span class="tt-warn" title=""></span> -->
+		<div id="logo"><img src="./imgs/hivelogo.png"></div>
 
 		<div id="navbar">
 			<a id="nav-btn" href="index.html">Changelogs</a>
@@ -42,59 +40,67 @@
 						<th style="column-width: 500px;">Action</th>
 					</tr>
 
-					<tr> <td>F1</td> <td>Radial Menu</td> </tr>
-					<tr> <td>F2</td> <td>Inventory</td> </tr>
 					<tr> <td>F3</td> <td>Phone</td> </tr>
 					<tr> <td>F7 <i class="tt-warn fas fa-exclamation-circle fa-xs fa-fw tt-warn" style="color: rgb(216, 213, 52);"></i></td> <td>Open Billing</td> </tr>
-					<tr> <td>F8</td> <td>In-Game Console</td> </tr>
-					<tr> <td>Z</td> <td>Cycle Voice Range</td> </tr>
-					<tr> <td>Left Control</td> <td>Crouch</td> </tr>
-					<tr> <td>~/`</td> <td>Crawl</td> </tr>
-					<tr> <td>T</td> <td>Open Chat</td> </tr>
-					<tr> <td>Left Alt</td> <td>Eye Interact</td> </tr>
-					<tr> <td>B</td> <td>Point</td> </tr>
-					<tr> <td>Home</td> <td>Player List</td> </tr>
-					<tr> <td>Left Shift + P</td> <td>Access Radio</td> </tr>
-					<tr> <td>Caps Lock</td> <td>Talk on Radio/Phone</td> </tr>
+
 
 				</table>
 
 				<span style="height: 100px;"></span>				
 
-				<h3>Vehicle</h3>
+				<h3>Commands</h3>
 				<table>
 					<tr>
-						<th style="column-width: 100px;">Key</th>
+						<th style="column-width: 200px;">Command</th>
+						<th style="column-width: 300px;">Example</th>
 						<th style="column-width: 500px;">Action</th>
 					</tr>
 
-					<tr> <td>K</td> <td>Toggle Seatbelt</td> </tr>
-					<tr> <td>L</td> <td>Lock/Unlock Vehicle</td> </tr>
-					<tr> <td>=</td> <td>Right Indicator</td> </tr>
-					<tr> <td>-</td> <td>Left Indicator</td> </tr>
-					<tr> <td>Backspace</td> <td>Hazard Lights</td> </tr>
+					<tr> <td>/cash</td> <td>/cash</td> <td>Check your cash amount</td> </tr>
+					<tr> <td>/givecash [id] [amount]</td> <td>/givecash 1 1000</td> <td>Give another player money</td> </tr>
+					<tr> <td>/job</td> <td>/job</td> <td>Check what Job/Rank you have</td> </tr>
+					<tr> <td>/id</td> <td>/id</td> <td>Check you current Server ID</td> </tr>
+					<tr> <td>/chips</td> <td>/chips</td> <td>Check how many Casino Chips you have</td> </tr>
+					<tr> <td>/e [emote]</td> <td>/e dance</td> <td>Plays an emote</td> </tr>
+					<tr> <td>/emotebind [key] [emote]</td> <td>/emotebind num4 dance</td> <td>Binds an emote to a key <i>(num4, num5, num6, num7. num8, num9)</i></td> </tr>
+					<tr> <td>/emotebinds</td> <td>/emotebinds</td> <td>Check your current bound emotes</td> </tr>
+					<tr> <td>/emotemenu</td> <td>/emotemenu</td> <td>Open the emote menu</td> </tr>
+					<tr> <td>/unbindemote [key]</td> <td>/unbindemote num4</td> <td>Unbinds and emote from a key <i>(num4, num5, num6, num7. num8, num9)</i></td> </tr>
+					<tr> <td>/binds</td> <td>/binds</td> <td>Open command binding menu</td> </tr>
+					<tr> <td>/bug</td> <td>/bug</td> <td>Opens the Bug Report UI</td> </tr>
+					<tr> <td>/me [msg]</td> <td>/me Reaches in Glovebox</td> <td>Shows a 3D me message</td> </tr>
+					<tr> <td>/givekeys [id]</td> <td>/givekeys 1</td> <td>Gives the keys to the current vehicle to the specified player</td> </tr>
+					<tr> <td>/engine</td> <td>/engine</td> <td>Toggles the engine of the current vehicle</td> </tr>
+					<tr> <td>/seat</td> <td>/seat</td> <td>Moves you to the specified seat of a vehicle</td> </tr>
+					<tr> <td>/clear</td> <td>/clear</td> <td>Clears the chat (for yourself)</td> </tr>
+					<tr> <td>/ooc [msg]</td> <td>/ooc I'm cuffed in the prison!</td> <td>Sends a global Out of Character message in chat <strong>(Use this sparingly!)</strong></td> </tr>
+					<tr> <td></td> <td></td> <td></td> </tr>
+					<tr> <td>/h or /hat</td> <td>/h or /hat</td> <td>Toggle Helmet/Hat</td> </tr>
+					<tr> <td>/b or /glasses</td> <td>/b or /glasses</td> <td>Toggle Glasses</td> </tr>
+					<tr> <td>/m or /mask</td> <td>/m or /mask</td> <td>Toggle Mask</td> </tr>
+					<tr> <td></td> <td></td> <td></td> </tr>
+					<tr> <td>/createrace [amount]</td> <td>/createrace 150</td> <td>Start a street race with the specified buy-in</td> </tr>
+					<tr> <td>/stoprace</td> <td>/stoprace</td> <td>Stops the race you created</td> </tr>
+					<tr> <td>/quitrace</td> <td>/quitrace</td> <td>Leaves the current street race <i>(you will not be refunded)</i></td> </tr>
+					<tr> <td>/startrace</td> <td>/startrace</td> <td>Starts the current street race</td> </tr>
+					<tr> <td></td> <td></td> <td></td> </tr>
+					<tr> <td>/givehousekey</td> <td>/givehousekey</td> <td>Gives a house key of the nearest owned house to the nearest player</td> </tr>
+					<tr> <td>/housekeys</td> <td>/housekeys</td> <td>View who owns keys to your houses</td> </tr>
+					<tr> <td>/decorate</td> <td>/decorate</td> <td>Decorate your home</td> </tr>
+					<tr> <td>/createhouse [price] [tier]</td> <td>/createhouse 35000 1</td> <td>Creates a house at the current location <i>(Real Estate Only)</i></td> </tr>
+					<tr> <td>/addgarage</td> <td>/addgarage</td> <td>Adds a garage to the current house <i>(Real Estate Only)</i></td> </tr>
+					<tr> <td></td> <td></td> <td></td> </tr>
+					<tr> <td>/extras</td> <td>/extras</td> <td>Opens the extras/livery menu <i>(Police/EMS/Mechanics Only)</i></td> </tr>
+					<tr> <td>/livery [id]</td> <td>/livery 2</td> <td>Sets the livery of your vehicle <i>(Police/EMS/Mechanics Only)</i></td> </tr>
+					<tr> <td>/jail</td> <td>/jail</td> <td>Opens the Jail Input Menu <i>(Police Only)</i></td> </tr>
+					<tr> <td>/unjail [id]</td> <td>/unjail 1</td> <td>Unjails the specified player <i>(Police Only)</i></td> </tr>
+					<tr> <td>/setjail [id] [time]</td> <td>/setjail 1 15</td> <td>Sets the jail time of the specified player <i>(Police Only)</i></td> </tr>
+					<tr> <td>/fine</td> <td>/fine</td> <td>Opens the Fine Input Menu <i>(Police Only)</i></td> </tr>
+					<tr> <td>/evidence [casid]</td> <td>/evidence 69</td> <td>Opens the evidence stash of the specified Case ID <i>(Police Only)</i></td> </tr>
+					<tr> <td>/clearblood</td> <td>/clearblood</td> <td>Clears the area of blood evidence <i>(Police Only)</i></td> </tr>
+					<tr> <td>/takedna</td> <td>/takedna</td> <td>Take a DNA sample of the specified player <i>(Police Only)</i></td> </tr>
+					<tr> <td>/uncuff [id]</td> <td>/uncuff 1</td> <td>Uncuff the specified player <i>(Police Only)</i></td> </tr>
 
-				</table>
-
-				<span style="height: 100px;"></span>				
-
-				<h3>Police/EMS</h3>
-				<table>
-					<tr>
-						<th style="column-width: 100px;">Key</th>
-						<th style="column-width: 500px;">Action</th>
-					</tr>
-
-					<tr> <td>Q</td> <td>Toggle Lights</td> </tr>
-					<tr> <td>Left Shift</td> <td>Toggle Primary Siren</td> </tr>
-					<tr> <td>R</td> <td>Manual Siren</td> </tr>
-					<tr> <td>E</td> <td>Airhorn</td> </tr>
-					<tr> <td>X</td> <td>Secondary Siren</td> </tr>
-					<tr> <td></td> <td></td> </tr>
-					<tr> <td>Delete <i class="tt-warn fas fa-exclamation-circle fa-xs fa-fw tt-warn" style="color: rgb(216, 213, 52);"></i></td> <td>Open MDT (Police Only)</td> </tr>
-					<tr> <td>Page Up <i class="tt-warn fas fa-exclamation-circle fa-xs fa-fw tt-warn" style="color: rgb(216, 213, 52);"></i></td> <td>Cuff/Uncuff Nearest Player (Police Only)</td> </tr>
-					<tr> <td>F5 <i class="tt-warn fas fa-exclamation-circle fa-xs fa-fw tt-warn" style="color: rgb(216, 213, 52);"></i></td> <td>Open Radar UI (Police Only)</td> </tr>
-					
 				</table>
 			</div>
 

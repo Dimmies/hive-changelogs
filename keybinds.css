@@ -15,7 +15,9 @@ body {
 }
 
 #logo > img {
-	width: 7%; height: 15%;
+	width: 5%;
+
+	margin-bottom: 60px;
 }
 
 #navbar {
@@ -40,29 +42,11 @@ li {
 }
 
 #nav-btn:hover { 
-	color: #4fb6f1;
+	color: #f0c44a;
 }
 
 #changelogs {
 	display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;
-}
-
-#changelog-chunk {
-	border: 2px solid #009ffb;
-	padding: 1px;
-	width: 50%;
-	border-radius: 2px;
-
-	list-style-type: square;
-
-	margin-bottom: 70px;
-}
-
-#chunk-header {
-	background-color: #009ffb91;
-	height: 40px;
-	display: flex; justify-content: flex-start; align-items: center;
-	padding-left: 20px;
 }
 
 #key-table {
