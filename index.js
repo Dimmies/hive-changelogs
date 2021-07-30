@@ -2,9 +2,47 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, July 30th 2021": {
+		version: "pre-alpha-1.12.0",
+		current: true,
+		"logs": {
+			0: { type: "optimize", desc: "Switched to a new method of loading core framework files (this should optimize load times)" },
+			1: { type: "bug", desc: "Fixed notifications UI having a scroll bar in the small chance you have a ton of notifications at once" },
+			2: { type: "bug", desc: "Fixed HUD not showing after login" },
+			3: { type: "add", desc: "Added v3 of Fishing" },
+			4: { type: "change", desc: "Changed Turtles to Stingrays" },
+			5: { type: "change", desc: "Updated Drilling Minigame (adds drill model, sound effects and more)" },
+			6: { type: "change", desc: "Decreased volume of bug hack sound effects" },
+			7: { type: "change", desc: "24/7 now sends alerts to police on the first crime you commit there" },
+			8: { type: "bug", desc: "Fixed instantly getting a baggie of meth when you prepare meth for the first time" },
+			9: { type: "bug", desc: "Fixed being able to copy/paste password hack's password" },
+			10: { type: "bug", desc: "Fixed Police Alerts being sent to players who had a police job, then didnt (weird/unusual case, but it's fixed)" },
+			11: { type: "bug", desc: "Fixed Roulette black bet including some red numbers as well" },
+			12: { type: "remove", desc: "Removed the slight rotation of the timer in the roulette UI" },
+			13: { type: "bug", desc: "Fixed crafting UI not working" },
+			14: { type: "bug", desc: "Fixed all impounded vehicles showing for everyone in the impound lot" },
+			15: { type: "change", desc: "Changed vehicle hud text from 'Cruise' to 'Limiter'" },
+			16: { type: "bug", desc: "Fixed showing Drivers License and IDs showing for everyone in the server" },
+			17: { type: "bug", desc: "Fixed IDs Male/Female wording" },
+			18: { type: "add", desc: "Added ability to set trunk space for specific vehicle models" },
+			19: { type: "bug", desc: "Fixed issue with giving a weapon with giveitem admin command" },
+			20: { type: "add", desc: "Added ability for Mechanics to impound vehicles" },
+			21: { type: "add", desc: "Added wounding label for Ceramic Pistol" },
+			22: { type: "change", desc: "Adjusted coupe vehicle display in PDM" },
+			23: { type: "bug", desc: "Fixed towed vehicles rubberbanding up and down" },
+			24: { type: "bug", desc: "Fixed police armory not working" },
+			25: { type: "bug", desc: "Fix MDT not working/opening if you're in a vehicle and parked behind a vehicle" },
+			26: { type: "remove", desc: "Removed tables from PDM to make more room" },
+			27: { type: "bug", desc: "Fixed rare case where you could no longer aim after putting your hands up with the keybind" },
+			28: { type: "bug", desc: "Fixed issue where if you try to /givecash to a ID that isn't assigned to a player, it'll take your cash but error serverside" },
+			29: { type: "change", desc: "Changed Map to use no postal codes but streetnames instead" },
+
+		}
+	},
+
 	"Monday, July 19th 2021": {
 		version: "pre-alpha-1.11.0",
-		current: true,
+		current: false,
 		"logs": {
 			1: { type: "bug", desc: "Fixed a ammo exploit" },
 			2: { type: "add", desc: "Added an RC Car" },
