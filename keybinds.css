@@ -115,3 +115,10 @@ td {
 td:last-child {
 	border-right: 0px;
 }
+
+.tt-warn {
+	color: rgb(255, 166, 0);
+	padding-left: 5px;
+
+	vertical-align: unset;
+}
