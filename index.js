@@ -2,9 +2,36 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Monday, August 2nd 2021": {
+		version: "pre-alpha-1.13.0",
+		current: true,
+		"logs": {
+			0: { type: "add", desc: "Added a Vehicle Persistence script that should help stop vehicles despawning when going too far away from them or leaving the server." },
+			1: { type: "add", desc: "Added server logs that are sent to the server panel for different events (mostly admin commands)" },
+			2: { type: "change", desc: "Set new weights for items (Thanks @Pyotr)" },
+			3: { type: "add", desc: "Added a client error logger to the server. This sends client errors to Discord so we can easily track what errors players are experiencing but not seeing in their client consoles." },
+			4: { type: "bug", desc: "Fixed Loading Screen image not scaling with screen resolution" },
+			5: { type: "remove", desc: "Removed the flashing red/blue lights from the loading screen (for now) as they didn't scale with screen res" },
+			6: { type: "remove", desc: "Removed a lot of unhelpful debug prints" },
+			7: { type: "bug", desc: "Possibly fixed 24/7 Safes not loading properly (needs some testing)" },
+			8: { type: "change", desc: "Set all of the crime cop counts" },
+			9: { type: "bug", desc: "Possibly fixed Meth look zones not registering until the script is restarted (needs some testing)" },
+			10: { type: "add", desc: "Added a cop count check to the Pacific Standard Bank heist" },
+			11: { type: "change", desc: "Set weed prices" },
+			12: { type: "change", desc: "Prices for selling meth to NPC now scales with the quality of the meth" },
+			13: { type: "change", desc: "Changed arcade laptops to a different model" },
+			14: { type: "bug", desc: "Fixed Appearance misspelling in the clothing menu" },
+			15: { type: "change", desc: "Stress now causes blur that fades in/out instead of just snapping in/out" },
+			16: { type: "change", desc: "Changed the texting app style" },
+			17: { type: "bug", desc: "Fixed `Location` translation error in texting app" },
+			18: { type: "add", desc: "Added Spike Strips to Police" },
+			19: { type: "change", desc: "Changed bug report embed to use a timestamp instead of lua os.dat" },
+		}
+	},
+
 	"Friday, July 30th 2021": {
 		version: "pre-alpha-1.12.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "optimize", desc: "Switched to a new method of loading core framework files (this should optimize load times)" },
 			1: { type: "bug", desc: "Fixed notifications UI having a scroll bar in the small chance you have a ton of notifications at once" },
