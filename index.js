@@ -2,9 +2,39 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Wednesday, August 4th 2021": {
+		version: "pre-alpha-1.14.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Set paychecks of jobs" },
+			1: { type: "change", desc: "Set 24/7 Register and Safe reward prices" },
+			2: { type: "bug", desc: "Fixed Dill zones in Fleeca Banks not getting reset when the bank is reset" },
+			3: { type: "bug", desc: "Fixed Drilling not working in Fleeca Bank Robberies" },
+			4: { type: "bug", desc: "Fixed Drilling not working in PSB Heists" },
+			5: { type: "change", desc: "Set rewards for Fleeca and PSB" },
+			6: { type: "bug", desc: "Fix `Not enough cops around` error showing any time you use a lockpick" },
+			7: { type: "change", desc: "Limited how many weed plants you can plant in your house/apartment to 20" },
+			8: { type: "bug", desc: "Fixed weed plants stacking ontop of each other when planting" },
+			9: { type: "change", desc: "Set prices for Bennys" },
+			10: { type: "bug", desc: "Fixed vehicle modifications not saving on persistent vehicles" },
+			11: { type: "bug", desc: "Fixed not being able to retrieve vehicles from house garages" },
+			12: { type: "bug", desc: "Fixed house garages not showing until the script is restarted" },
+			13: { type: "add", desc: "Added a small cooldown for ringing house doorbells" },
+			14: { type: "bug", desc: "Fixed Stress screen blur not fading out" },
+			15: { type: "bug", desc: "Fixed log error that broke the inventory" },
+			16: { type: "change", desc: "Set prices for the house robbery items" },
+			17: { type: "bug", desc: "Fixed fishing pole not getting removed when you stop fishing" },
+			18: { type: "bug", desc: "Fixed stingray item not being given when you catch them" },
+			19: { type: "add", desc: "Readded ability to sell fish" },
+			20: { type: "change", desc: "Set price of the garbage job" },
+			21: { type: "change", desc: "Set price of hunting" },
+			22: { type: "bug", desc: "Fixed custom vehicles having `NULL` as their Display Names " },
+		}
+	},
+
 	"Monday, August 2nd 2021": {
 		version: "pre-alpha-1.13.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "add", desc: "Added a Vehicle Persistence script that should help stop vehicles despawning when going too far away from them or leaving the server." },
 			1: { type: "add", desc: "Added server logs that are sent to the server panel for different events (mostly admin commands)" },
@@ -25,7 +55,7 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			16: { type: "change", desc: "Changed the texting app style" },
 			17: { type: "bug", desc: "Fixed `Location` translation error in texting app" },
 			18: { type: "add", desc: "Added Spike Strips to Police" },
-			19: { type: "change", desc: "Changed bug report embed to use a timestamp instead of lua os.dat" },
+			19: { type: "change", desc: "Changed bug report embed to use a timestamp instead of lua os.date" },
 		}
 	},
 
