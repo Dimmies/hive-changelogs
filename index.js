@@ -29,6 +29,17 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 			20: { type: "change", desc: "Set price of the garbage job" },
 			21: { type: "change", desc: "Set price of hunting" },
 			22: { type: "bug", desc: "Fixed custom vehicles having `NULL` as their Display Names " },
+			23: { type: "change", desc: "Increased time it takes to rob 24/7 register" },
+			24: { type: "add", desc: "Added display for help command on terminal" },
+			25: { type: "bug", desc: "Possibly fixed face sliders for clothing" },
+			26: { type: "bug", desc: "Fixed being able to switch seats while cuffed" },
+			27: { type: "change", desc: "Increased time it takes to reload a gun by half a second" },
+			28: { type: "bug", desc: "Fixed being able to shoot while reloading" },
+			29: { type: "bug", desc: "Fixed reload animation not playing when reloading" },
+			30: { type: "bug", desc: "Fixed ammo item getting removed even if you cancel the reload" },
+			31: { type: "change", desc: "Decreased price and increased item count of bandages in hospital storage" },
+			32: { type: "change", desc: "If you're cuffed when being sent to jail, you get uncuffed" },
+			33: { type: "add", desc: "Added an animation when putting on armor" },
 		}
 	},
 
