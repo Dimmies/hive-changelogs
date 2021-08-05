@@ -2,9 +2,27 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Thursday, August 5th 2021": {
+		version: "pre-alpha-1.15.0",
+		current: true,
+		"logs": {
+			0: { type:"optimize", desc: "Optimized Drilling minigame" },
+			0: { type:"remove", desc: "Removed the unused code search locations in Fleeca bank" },
+			0: { type:"optimize", desc: "Optimized the Password Hack minigame" },
+			0: { type:"add", desc: "Added a timer to the password hack minigame after the password is hidden and waiting for input" },
+			0: { type:"change", desc: "When the password input is unlocked, the password input is now auto-focused so you don't have to click the input" },
+			0: { type:"change", desc: "Completely redid most of the PSB Heist (this removes the 2 methods idea and focuses on one)" },
+			0: { type:"add", desc: "Added a new voltage hacking minigame" },
+			0: { type:"change", desc: "Stress shakes now can happen at 50% instead of 100% and grow in strength depending on how stressed you are" },
+			0: { type:"change", desc: "Set prices of all vehicles in PDM" },
+			0: { type:"change", desc: "Increased mining rewards (bomb and pick)" },
+			0: { type:"bug", desc: "Fixed error when switching jobs while on a locked radio channel" },
+		}
+	},
+
 	"Wednesday, August 4th 2021": {
 		version: "pre-alpha-1.14.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type: "change", desc: "Set paychecks of jobs" },
 			1: { type: "change", desc: "Set 24/7 Register and Safe reward prices" },
