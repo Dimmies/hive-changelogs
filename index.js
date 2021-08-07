@@ -2,9 +2,19 @@ let Logs = { // NEWEST LOG SHOULD BE ON TOP || MAKE SURE TO EDIT THE CURRENT VAR
 
 	// bug / change / add / remove / misc / optimize
 
+	"Friday, August 6th 2021": {
+		version: "pre-alpha-1.16.0",
+		current: true,
+		"logs": {
+			0: { type: "change", desc: "Updated PDM vehicle list/prices" },
+			1: { type: "bug", desc: "Possibly fixed PDM vehicle display names showing NULL" },
+			2: { type: "add", desc: "Added new Delivery Job" },
+		}
+	},
+
 	"Thursday, August 5th 2021": {
 		version: "pre-alpha-1.15.0",
-		current: true,
+		current: false,
 		"logs": {
 			0: { type:"optimize", desc: "Optimized Drilling minigame" },
 			1: { type:"remove", desc: "Removed the unused code search locations in Fleeca bank" },
